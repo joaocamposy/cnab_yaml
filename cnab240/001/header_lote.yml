@@ -75,6 +75,6 @@ agencia_mais_conta_dv:
 
 data_credito_obsoleto:
   # Campo não tradado pelo banco do brasil
-  pos: [200, 207]
+  pos: [202, 209]
   picture: '9(8)'
   default: '0'

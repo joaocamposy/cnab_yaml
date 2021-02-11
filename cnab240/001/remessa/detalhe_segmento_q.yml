@@ -26,24 +26,24 @@ sacador_nome:
   # posições, da posição 170 a 190. Caso não haja sacador/avalista,
   # preencher com 'brancos'. Se informado sacador/avalista não
   # será possível a utilização da Mensagem 1 ou 3.
-  pos: [170, 209]
-  picture: 'X(40)'
+  pos: [170, 212]
+  picture: 'X(43)'
   default: ''
 
 codigo_do_banco_correspondente_na_compensacao:
   # Campo não tratado. Preencher com 'zeros'.
-  pos: [210, 212]
+  pos: [213, 215]
   picture: '9(3)'
   default: '0'
 
 nosso_numero_no_banco_correspondente:
   # Campo não tratado. Preencher com 'brancos'.
-  pos: [213, 232]
+  pos: [216, 235]
   picture: 'X(20)'
   default: ''
 
 uso_exclusivo_febraban_04:
   # Informar 'brancos' (espaços).
-  pos: [233, 240]
+  pos: [236, 243]
   picture: 'X(8)'
   default: ''

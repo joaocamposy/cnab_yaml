@@ -167,15 +167,15 @@ agencia_mais_cedente_dv:
 
 nome_empresa:
   # Nome que identifica a pessoa, física ou jurídica, a qual se quer fazer referência
-  pos: [74, 103]
-  picture: 'X(30)'
+  pos: [74, 105]
+  picture: 'X(32)'
 
 mensagem_1:
   # Mensagem 1 / 2
   # Texto referente a mensagens que serão impressas, em todos os bloquetos referentes ao mesmo lote, no
   # corpo de instruções da ficha de compensação e do recibo do sacado do bloqueto.
   # Estes campos não serão utilizados no arquivo retorno.
-  pos: [104, 143]
+  pos: [106, 145]
   picture: 'X(40)'
   default: ''
 
@@ -184,7 +184,7 @@ mensagem_2:
   # Texto referente a mensagens que serão impressas, em todos os bloquetos referentes ao mesmo lote, no
   # corpo de instruções da ficha de compensação e do recibo do sacado do bloqueto.
   # Estes campos não serão utilizados no arquivo retorno.
-  pos: [144, 183]
+  pos: [146, 185]
   picture: 'X(40)'
   default: ''
 
@@ -192,19 +192,19 @@ numero_sequencial_arquivo:
   # Número adotado e controlado pelo responsável pela geração magnética dos dados contidos no
   # arquivo para identificar a seqüência de envio ou devolução do arquivo entre o Cedente e o Banco
   # Cedente.
-  pos: [184, 191]
+  pos: [186, 193]
   picture: '9(8)'
 
 data_geracao:
   # Data da gravação do arquivo de remessa ou retorno. utilizar o formato DDMMAAAA, onde : dd = dia, mm = mês, aa = ano
-  pos: [192, 199]
+  pos: [194, 201]
   picture: '9(8)'
   date_format: '%d%m%Y'
 
 data_credito:
   # Data de efetivação do crédito referente ao pagamento do título de cobrança. Informação enviada somente
   # no arquivo de retorno. Utilizar o formato DDMMAAAA, onde: DD = dia, MM = mês, AAAA = ano
-  pos: [200, 207]
+  pos: [202, 209]
   picture: '9(8)'
   date_format: '%d%m%Y'
   default: '0'
@@ -212,6 +212,6 @@ data_credito:
 uso_exclusivo_febraban_02:
   # Texto de observações destinado para uso exclusivo da FEBRABAN.
   # Preencher com Brancos.
-  pos: [208, 240]
+  pos: [210, 242]
   picture: 'X(33)'
   default: ''
